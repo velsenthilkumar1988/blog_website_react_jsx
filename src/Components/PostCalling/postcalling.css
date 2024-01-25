@@ -1,0 +1,53 @@
+.postCalling{
+    width: 385px;
+    margin: 0px 25px 40px 25px;
+}
+.postCallingImg{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.postCallingInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.postCallingCast{
+    font-size: 16px;
+    font-weight: bold;
+    color: brown;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.postTitle{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.postData{
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: cadetblue;
+    font-weight: bold;
+}
+.postCallingDesc{
+    line-height: 21px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    text-align: justify;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
