@@ -1,0 +1,90 @@
+.settingsContainer{
+    display: flex;
+}
+.settingContainerWrapper{
+    flex: 9;
+    padding: 20px;
+}
+.settingsTitle{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.settingUpdateTitle{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: orange;
+    font-weight: bold;
+    font-style: oblique;
+}
+.settingDeleteTitle{
+    font-size: 19px;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+.settingForm{
+    display: flex;
+    flex-direction: column;
+}
+.settingsPP{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.settingsPP > img{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.settingPPImgIcon{
+    width: 30px;
+    height: 30px;
+    background-color: palevioletred;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+}
+.settingPPImgIcon:hover{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(61, 18, 219);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.settingForm > label{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.settingForm > input{
+    border: none;
+    margin: 10px 0;
+    color: gray;
+    height: 30px;
+    border-bottom: 1px solid lightgray;
+    font-size: 20px;
+}
+.settingsSubmit{
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-style: oblique;
+    padding: 10px;
+}
