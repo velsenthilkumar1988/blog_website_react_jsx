@@ -1,3 +1,4 @@
+import Login from "./Components/pages/login/Login";
 import Settings from "./Components/pages/settings/Settings";
 import Single from "./Components/pages/single/Single";
 import Write from "./Components/pages/write/Write";
@@ -7,7 +8,7 @@ function App() {
   return (
     <>
     <Topbar/>
-    <Settings/>
+    <Login/>
     </>
     
   );
