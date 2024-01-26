@@ -1,5 +1,8 @@
 import "./Topbar.css";
 import blogPageImage from "../../Components/images/carouselPage.jpg";
+import { Link } from "react-router-dom";
+import Home from "../pages/home/Home";
+import Login from "../pages/login/Login";
 export default function Topbar() {
   return (
     <div className='top'>
@@ -12,10 +15,24 @@ export default function Topbar() {
         </div>
         <div className='topCenter'>
             <ul className='topList'>
-                <li className='topListItem'>Home</li>
-                <li className='topListItem'>About Us</li>
-                <li className='topListItem'>Contact</li>
-                <li className='topListItem'>Write Your Blog</li>
+                <li className='topListItem'>
+                    <Link to="/" style={{textDecoration: "none"}}>Home</Link>
+                </li>
+                <li className='topListItem'>
+                <Link to="/login" style={{textDecoration: "none"}}>Login</Link>
+                </li>
+                <li className='topListItem'>
+                    <Link to="/register" style={{textDecoration: "none"}}>Register</Link>
+                </li>
+                <li className='topListItem'>
+                    <Link to='/write' style={{textDecoration: "none"}}>Write Your Blog</Link>
+                </li>
+                <li className='topListItem'>
+                    <Link to='/settings' style={{textDecoration: "none"}}>Settings</Link>
+                </li>
+                <li className='topListItem'>
+                    <Link to='/single' style={{textDecoration: "none"}}>Blog Pages</Link>
+                </li>
                 <li className='topListItem'>Logout?</li>
             </ul>
         </div>

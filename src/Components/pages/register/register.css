@@ -1,0 +1,95 @@
+.Register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.3)), url("../../images/carouselPage.jpg");
+    background-size: cover;
+    align-items: center;
+}
+.RegisterForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.RegisterTitle{
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.RegisterForm > label{
+    font-size: 18px;
+    margin-top: 10 0;
+    color: black;
+    font-weight: bold;
+}
+.RegisterForm > input{
+    font-size: 13px;
+    margin-top: 10 0;
+    color: black;
+    font-weight: bold;
+}
+.RegisterInput{
+    padding: 10px;
+    background: linear-gradient(rgba(0,0,0,0.3));
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.RegisterButton{
+    margin-top: 5px;
+    cursor: pointer;
+    background-color: brown;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.RegisterButton:hover{
+    margin-top: 5px;
+    cursor: pointer;
+    background-color: rgb(117, 8, 171);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.LoginButton{
+    position: absolute;
+    top: 10%;
+    right: 3%;
+    background-color: aquamarine;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.LoginButton:hover{
+    position: absolute;
+    top: 10%;
+    right: 3%;
+    background-color: rgb(18, 9, 185);
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
