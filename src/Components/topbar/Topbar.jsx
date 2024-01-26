@@ -16,22 +16,22 @@ export default function Topbar() {
         <div className='topCenter'>
             <ul className='topList'>
                 <li className='topListItem'>
-                    <Link to="/" style={{textDecoration: "none"}}>Home</Link>
+                    <Link to="/" style={{textDecoration: "none", color: "none"}}>Home</Link>
                 </li>
                 <li className='topListItem'>
-                <Link to="/login" style={{textDecoration: "none"}}>Login</Link>
+                <Link to="/login" style={{textDecoration: "none", color: "none"}}>Login</Link>
                 </li>
                 <li className='topListItem'>
-                    <Link to="/register" style={{textDecoration: "none"}}>Register</Link>
+                    <Link to="/register" style={{textDecoration: "none", color: "none"}}>Register</Link>
                 </li>
                 <li className='topListItem'>
-                    <Link to='/write' style={{textDecoration: "none"}}>Write Your Blog</Link>
+                    <Link to='/write' style={{textDecoration: "none", color: "none"}}>Write Your Blog</Link>
                 </li>
                 <li className='topListItem'>
-                    <Link to='/settings' style={{textDecoration: "none"}}>Settings</Link>
+                    <Link to='/settings' style={{textDecoration: "none", color: "none"}}>Settings</Link>
                 </li>
                 <li className='topListItem'>
-                    <Link to='/single' style={{textDecoration: "none"}}>Blog Pages</Link>
+                    <Link to='/single' style={{textDecoration: "none", color: "none"}}>Blog Pages</Link>
                 </li>
                 <li className='topListItem'>Logout?</li>
             </ul>
